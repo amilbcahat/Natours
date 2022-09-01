@@ -7,7 +7,6 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
-    "start": "nodemon server.js",
     "debug": "ndb server.js",
     "debug:prod": "NODE_ENV=production ndb server.js",
     "watch:js": "parcel watch ./starter/public/js/index.js --out-dir ./starter/public/js --out-file bundle.js",
