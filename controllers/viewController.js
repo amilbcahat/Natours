@@ -64,6 +64,12 @@ exports.getLoginForm = catchAsync(async (req, res) => {
   });
 });
 
+exports.getSignupForm = catchAsync(async (req, res) => {
+  res.status(200).render("signup", {
+    title: "Signup your account",
+  });
+});
+
 exports.updateUserData = catchAsync(async (req, res, next) => {
   // console.log(req.body);
   const updatedUser = await User.findByIdAndUpdate(

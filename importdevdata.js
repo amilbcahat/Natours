@@ -25,15 +25,15 @@ const tours = JSON.parse(
   fs.readFileSync(`${__dirname}/starter/dev-data/data/tours.json`, "utf-8")
 );
 const reviews = JSON.parse(
-  fs.readFileSync(`${__dirname}/starter/dev-data/data/reviews.json`, "utf-8")
+  fs.readFileSync(`${__dirname}/starter/dev-data/data/reviews1.json`, "utf-8")
 );
 const users = JSON.parse(
-  fs.readFileSync(`${__dirname}/starter/dev-data/data/users.json`, "utf-8")
+  fs.readFileSync(`${__dirname}/starter/dev-data/data/users1.json`, "utf-8")
 );
 const importData = async () => {
   try {
     // console.log(review);
-    await Tour.create(tours, { validateBeforeSave: false });
+    await Review.create(reviews, { validateBeforeSave: false });
 
     console.log("Data successfully loaded");
   } catch (err) {
@@ -45,7 +45,7 @@ const importData = async () => {
 // Delete data from db
 const deleteData = async () => {
   try {
-    await Tour.deleteMany();
+    await User.deleteMany();
     process.exit();
     console.log("Data Successfully deleted");
   } catch (err) {
