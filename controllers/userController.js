@@ -55,8 +55,8 @@ const filterObj = (obj, ...allowedFields) => {
 
 exports.getAllUsers = factory.getAll(User);
 exports.updateMe = catchAsync(async (req, res, next) => {
-  console.log(req.file);
-  console.log(req.body);
+  // console.log(req.file);
+  // console.log(req.body);
   //1) Crete error if user POSTS password data
   if (req.body.password || req.body.passwordConfirm) {
     return next(
@@ -86,7 +86,7 @@ exports.updateMe = catchAsync(async (req, res, next) => {
 });
 
 exports.deleteMe = catchAsync(async (req, res, next) => {
-  console.log(req.user);
+  // console.log(req.user);
 
   await User.findByIdAndUpdate(req.user.id, { active: false });
   res.status(204).json({

@@ -44,8 +44,8 @@ exports.signup = catchAsync(async (req, res, next) => {
   });
 
   const url = `${req.protocol}://${req.get("host")}/me`;
-  console.log(url);
-  console.log(newUser);
+  // console.log(url);
+  // console.log(newUser);
   await new Email(newUser, url).sendWelcome();
 
   createSendToken(newUser, 201, res);
@@ -61,11 +61,11 @@ exports.login = catchAsync(async (req, res, next) => {
   }
   //2) Check if user exist and password is correct in database
   const user = await User.findOne({ email }).select("+password");
-  console.log(user);
+  // console.log(user);
   if (!user || !(await user.correctPassword(password, user.password))) {
     return next(new AppError("Incorrect emil or password", 401));
   }
-  console.log(user);
+  // console.log(user);
 
   //3) If everything ok ,send token to client
   createSendToken(user, 200, res);
@@ -102,7 +102,7 @@ exports.protect = catchAsync(async (req, res, next) => {
   //   console.log(decoded);
 
   //3) Check if user still exists and
-  console.log(decoded.id);
+  // console.log(decoded.id);
   const currentUser = await User.findById(decoded.id);
   if (!currentUser) {
     return next(
@@ -136,7 +136,7 @@ exports.isLoggedIn = async (req, res, next) => {
       //   console.log(decoded);
 
       //3) Check if user still exists and
-      console.log(decoded.id);
+      // console.log(decoded.id);
       const currentUser = await User.findById(decoded.id);
       if (!currentUser) {
         return next();

@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-console.log('Hello from parcel');
+// console.log('Hello from parcel');
 import '@babel/polyfill';
 // import { displayMap } from './mapbox';
 import { login, logout } from './login';
@@ -13,7 +13,7 @@ const logOutBtn = document.querySelector('.nav__el--logout');
 const userDataForm = document.querySelector('.form-user-data');
 const userPasswordForm = document.querySelector('.form-user-password');
 const bookBtn = document.getElementById('book-tour');
-console.log(bookBtn);
+// console.log(bookBtn);
 
 //DELEGATION
 // if (mapBox) {
@@ -29,7 +29,7 @@ if (loginForm) {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
-    console.log('button clicked');
+    // console.log('button clicked');
     login(email, password);
   });
 }
@@ -37,13 +37,13 @@ if (loginForm) {
 if (userDataForm) {
   userDataForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    console.log('button was recognised 2');
+    // console.log('button was recognised 2');
     const form = new FormData();
 
     form.append('name', document.getElementById('name').value);
     form.append('email', document.getElementById('email').value);
     form.append('photo', document.getElementById('photo').files[0]);
-    console.log(form);
+    // console.log(form);
     // const email = document.getElementById('email').value;
     updateSettings(form, 'data');
   });
@@ -53,7 +53,7 @@ if (userPasswordForm) {
   userPasswordForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     document.querySelector('.btn--save-password').textContent = 'Updating...';
-    console.log('button was recognised 2');
+    // console.log('button was recognised 2');
 
     const passwordCurrent = document.getElementById('password-current').value;
     const password = document.getElementById('password').value;
@@ -74,7 +74,7 @@ if (userPasswordForm) {
 if (bookBtn) {
   bookBtn.addEventListener('click', (e) => {
     e.preventDefault();
-    console.log('button clicked 3');
+    // console.log('button clicked 3');
     e.target.textContent = 'Processing...';
     const { tourId } = e.target.dataset;
     bookTour(tourId);
@@ -82,6 +82,6 @@ if (bookBtn) {
 }
 
 if (logOutBtn) {
-  console.log('button was recognised 1');
+  // console.log('button was recognised 1');
   logOutBtn.addEventListener('click', logout);
 }

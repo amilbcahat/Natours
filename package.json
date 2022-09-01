@@ -10,7 +10,7 @@
     "debug": "ndb server.js",
     "debug:prod": "NODE_ENV=production ndb server.js",
     "watch:js": "parcel watch ./starter/public/js/index.js --out-dir ./starter/public/js --out-file bundle.js",
-    "build:js": "parcel watch ./starter/public/js/index.js --out-dir ./starter/public/js --out-file bundle.js"
+    "build:js": "parcel build ./starter/public/js/index.js --out-dir ./starter/public/js --out-file bundle.js"
   },
   "author": "Amol Verma",
   "license": "ISC",
@@ -19,6 +19,7 @@
     "@stripe/stripe-js": "^1.35.0",
     "axios": "^0.27.2",
     "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
     "cookie-session": "^2.0.0",
     "cors": "^2.8.5",

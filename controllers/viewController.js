@@ -65,7 +65,7 @@ exports.getLoginForm = catchAsync(async (req, res) => {
 });
 
 exports.updateUserData = catchAsync(async (req, res, next) => {
-  console.log(req.body);
+  // console.log(req.body);
   const updatedUser = await User.findByIdAndUpdate(
     req.user.id,
     {

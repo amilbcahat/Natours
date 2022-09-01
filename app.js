@@ -10,6 +10,7 @@ const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
 const hpp = require("hpp");
 const port = 3000;
+const compression = require("compression");
 const viewRouter = require("./routes/viewRoutes.js");
 const cookieParser = require("cookie-parser");
 const tourRouter = require("./routes/tourRoutes.js");
@@ -70,7 +71,7 @@ app.use((req, res, next) => {
   console.log("Hello from the middleware");
   next();
 });
-
+app.use(compression());
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
   console.log(req.headers);
