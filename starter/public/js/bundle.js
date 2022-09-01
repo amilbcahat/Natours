@@ -11813,7 +11813,8 @@ if (signupForm) {
 
 if (userDataForm) {
   userDataForm.addEventListener('submit', function (e) {
-    e.preventDefault(); // console.log('button was recognised 2');
+    e.preventDefault();
+    document.querySelector('.btn--save-settings').textContent = 'Updating...'; // console.log('button was recognised 2');
 
     var form = new FormData();
     form.append('name', document.getElementById('name').value);

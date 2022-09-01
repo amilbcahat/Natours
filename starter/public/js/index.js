@@ -54,6 +54,8 @@ if (signupForm) {
 if (userDataForm) {
   userDataForm.addEventListener('submit', (e) => {
     e.preventDefault();
+    document.querySelector('.btn--save-settings').textContent = 'Updating...';
+
     // console.log('button was recognised 2');
     const form = new FormData();
 
@@ -62,7 +64,10 @@ if (userDataForm) {
     form.append('photo', document.getElementById('photo').files[0]);
     // console.log(form);
     // const email = document.getElementById('email').value;
-    updateSettings(form, 'data');
+    await updateSettings(form, 'data');
+    document.querySelector('.btn--save-settings').textContent = 'Save Settings';
+    location.reload()
+
   });
 }
 
