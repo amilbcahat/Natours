@@ -7,7 +7,7 @@ const dotenv = require("dotenv");
 const { createVerify } = require("crypto");
 const cookieSession = require("cookie-session");
 dotenv.config({ path: "./config.env" });
-const DB = process.env.DATABASE_LOCAL;
+const DB = process.env.DATABASE;
 
 mongoose
   .connect(DB, {
@@ -24,7 +24,7 @@ mongoose
 const tours = JSON.parse(
   fs.readFileSync(`${__dirname}/starter/dev-data/data/tours.json`, "utf-8")
 );
-const review = JSON.parse(
+const reviews = JSON.parse(
   fs.readFileSync(`${__dirname}/starter/dev-data/data/reviews.json`, "utf-8")
 );
 const users = JSON.parse(
@@ -33,7 +33,7 @@ const users = JSON.parse(
 const importData = async () => {
   try {
     // console.log(review);
-    await Review.create(review, { validateBeforeSave: false });
+    await Tour.create(tours, { validateBeforeSave: false });
 
     console.log("Data successfully loaded");
   } catch (err) {
@@ -45,7 +45,7 @@ const importData = async () => {
 // Delete data from db
 const deleteData = async () => {
   try {
-    await Review.deleteMany();
+    await Tour.deleteMany();
     process.exit();
     console.log("Data Successfully deleted");
   } catch (err) {
