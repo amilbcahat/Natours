@@ -10,7 +10,7 @@ process.on("uncaughtException", (err) => {
 
 dotenv.config({ path: "./config.env" });
 const DB = process.env.DATABASE;
-
+//console
 mongoose
   .connect(DB, {
     useNewUrlParser: true,
@@ -27,7 +27,7 @@ const app = require("./app");
 
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
-  console.log(`App is running on port ${port}...`);
+  console.log(`App is running on Port ${port}...`);
 });
 //Unhandled Rejection
 process.on("unhandledRejection", (err) => {
