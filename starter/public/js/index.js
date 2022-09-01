@@ -52,7 +52,7 @@ if (signupForm) {
 }
 
 if (userDataForm) {
-  userDataForm.addEventListener('submit', (e) => {
+  userDataForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     document.querySelector('.btn--save-settings').textContent = 'Updating...';
 
@@ -66,8 +66,7 @@ if (userDataForm) {
     // const email = document.getElementById('email').value;
     await updateSettings(form, 'data');
     document.querySelector('.btn--save-settings').textContent = 'Save Settings';
-    location.reload()
-
+    location.reload();
   });
 }
 

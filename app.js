@@ -19,12 +19,12 @@ const reviewRouter = require("./routes/reviewRoutes.js");
 const bookingRouter = require("./routes/bookingRoutes.js");
 
 const AppError = require("./utils/appError");
-
+app.enable("trust proxy");
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
 //1)Global Middlewares
 
-console.log(process.env.NODE_ENV);
+// console.log(process.env.NODE_ENV);
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
 }
@@ -68,14 +68,14 @@ app.use(express.static(path.join(__dirname, "/starter/public")));
 app.use(express.urlencoded({ extended: true, limit: "10kb" }));
 //Test Middleware
 app.use((req, res, next) => {
-  console.log("Hello from the middleware");
+  // console.log("Hello from the middleware");
   next();
 });
 app.use(compression());
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
-  console.log(req.headers);
-  console.log(req.cookies);
+  // console.log(req.headers);
+  // console.log(req.cookies);
   next();
 });
 

@@ -11812,27 +11812,50 @@ if (signupForm) {
 }
 
 if (userDataForm) {
-  userDataForm.addEventListener('submit', function (e) {
-    e.preventDefault();
-    document.querySelector('.btn--save-settings').textContent = 'Updating...'; // console.log('button was recognised 2');
+  userDataForm.addEventListener('submit', /*#__PURE__*/function () {
+    var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(e) {
+      var form;
+      return _regeneratorRuntime().wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              e.preventDefault();
+              document.querySelector('.btn--save-settings').textContent = 'Updating...'; // console.log('button was recognised 2');
 
-    var form = new FormData();
-    form.append('name', document.getElementById('name').value);
-    form.append('email', document.getElementById('email').value);
-    form.append('photo', document.getElementById('photo').files[0]); // console.log(form);
-    // const email = document.getElementById('email').value;
+              form = new FormData();
+              form.append('name', document.getElementById('name').value);
+              form.append('email', document.getElementById('email').value);
+              form.append('photo', document.getElementById('photo').files[0]); // console.log(form);
+              // const email = document.getElementById('email').value;
 
-    (0, _updateSettings.updateSettings)(form, 'data');
-  });
+              _context.next = 8;
+              return (0, _updateSettings.updateSettings)(form, 'data');
+
+            case 8:
+              document.querySelector('.btn--save-settings').textContent = 'Save Settings';
+              location.reload();
+
+            case 10:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee);
+    }));
+
+    return function (_x) {
+      return _ref.apply(this, arguments);
+    };
+  }());
 }
 
 if (userPasswordForm) {
   userPasswordForm.addEventListener('submit', /*#__PURE__*/function () {
-    var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(e) {
+    var _ref2 = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2(e) {
       var passwordCurrent, password, passwordConfirm;
-      return _regeneratorRuntime().wrap(function _callee$(_context) {
+      return _regeneratorRuntime().wrap(function _callee2$(_context2) {
         while (1) {
-          switch (_context.prev = _context.next) {
+          switch (_context2.prev = _context2.next) {
             case 0:
               e.preventDefault();
               document.querySelector('.btn--save-password').textContent = 'Updating...'; // console.log('button was recognised 2');
@@ -11841,7 +11864,7 @@ if (userPasswordForm) {
               password = document.getElementById('password').value;
               passwordConfirm = document.getElementById('password-confirm').value; // const email = document.getElementById('email').value;
 
-              _context.next = 7;
+              _context2.next = 7;
               return (0, _updateSettings.updateSettings)({
                 passwordCurrent: passwordCurrent,
                 password: password,
@@ -11856,14 +11879,14 @@ if (userPasswordForm) {
 
             case 11:
             case "end":
-              return _context.stop();
+              return _context2.stop();
           }
         }
-      }, _callee);
+      }, _callee2);
     }));
 
-    return function (_x) {
-      return _ref.apply(this, arguments);
+    return function (_x2) {
+      return _ref2.apply(this, arguments);
     };
   }());
 }
