@@ -17,13 +17,20 @@ const tourRouter = require("./routes/tourRoutes.js");
 const userRouter = require("./routes/userRoutes.js");
 const reviewRouter = require("./routes/reviewRoutes.js");
 const bookingRouter = require("./routes/bookingRoutes.js");
-
+const cors = require("cors");
 const AppError = require("./utils/appError");
 app.enable("trust proxy");
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
-//1)Global Middlewares
 
+//1)Global Middlewares
+//Implementing CORS
+app.use(cors());
+//app.use(cors({
+// origin: 'https://www.natours.com'
+//}))
+app.options("*", cors());
+//app.options('/api/v1/tours/:id , cors())
 // console.log(process.env.NODE_ENV);
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));

@@ -22,9 +22,6 @@ const createSendToken = (user, statusCode, req, res) => {
     secure: req.secure || req.headers["x-forwarded-proto"] === "https",
   };
 
-  if (process.env.NODE_ENV === "production") {
-    cookieOptions.secure = true;
-  }
   user.password = undefined;
   res.cookie("jwt", token, cookieOptions);
   res.status(statusCode).json({
@@ -49,7 +46,7 @@ exports.signup = catchAsync(async (req, res, next) => {
   // console.log(newUser);
   // await new Email(newUser, url).sendWelcome();
 
-  createSendToken(newUser, 201, res);
+  createSendToken(newUser, 201, req, res);
 });
 
 exports.login = catchAsync(async (req, res, next) => {
@@ -69,7 +66,7 @@ exports.login = catchAsync(async (req, res, next) => {
   // console.log(user);
 
   //3) If everything ok ,send token to client
-  createSendToken(user, 200, res);
+  createSendToken(user, 200, req, res);
 });
 
 exports.logout = (req, res) => {
@@ -237,7 +234,7 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
 
   //4) Log the user in ,send JWT
 
-  createSendToken(user, 200, res);
+  createSendToken(user, 200, req, res);
 });
 
 exports.updatePassword = catchAsync(async (req, res, next) => {
