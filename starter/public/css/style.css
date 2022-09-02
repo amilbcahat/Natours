@@ -1,5 +1,7 @@
-:root {
-  --section-rotate: 9vw;
+* {box-sizing: border-box;margin:0; padding:0;
+}
+
+:root {--section-rotate: 9vw;
 }
 
 ::-moz-selection {
@@ -32,7 +34,6 @@ body {
   font-weight: 300;
   font-family: 'Lato', sans-serif;
   color: #777;
-  padding: 3rem;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
