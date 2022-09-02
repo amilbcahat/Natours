@@ -17,9 +17,12 @@ const tourRouter = require("./routes/tourRoutes.js");
 const userRouter = require("./routes/userRoutes.js");
 const reviewRouter = require("./routes/reviewRoutes.js");
 const bookingRouter = require("./routes/bookingRoutes.js");
+const bookingController = require("./controllers/bookingController.js");
+
 const cors = require("cors");
 const AppError = require("./utils/appError");
 app.enable("trust proxy");
+
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
 
@@ -43,6 +46,13 @@ const limiter = rateLimit({
 });
 
 app.use("/api", limiter);
+
+app.post(
+  "/webhook-checkout",
+  express.raw({ type: "application/json" }),
+  bookingController.webhookCheckOut
+);
+
 //Body parser
 app.use(express.json());
 app.use(cookieParser());
