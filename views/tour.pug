@@ -2,8 +2,8 @@ extends base
 include _reviewCard
 
 block append head
-  //- script(crossorigin="anonymous" src='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js')
-  //- link(crossorigin="anonymous" href='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet')
+  script(crossorigin="anonymous" src='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js')
+  link(crossorigin="anonymous" href='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet')
   //- script(src = 'https://js.stripe.com//v3/')
 mixin overviewBox(label, text, icon)
   .overview-box__detail
@@ -29,7 +29,7 @@ block content
         .heading-box__detail
           svg.heading-box__icon
             use(xlink:href='/img/icons.svg#icon-map-pin')
-          //- span.heading-box__text= tour.startLocation.description
+          span.heading-box__text= tour.startLocation.description
 
   section.section-description
     .overview-box

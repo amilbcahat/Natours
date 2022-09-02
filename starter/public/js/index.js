@@ -2,13 +2,13 @@
 
 // console.log('Hello from parcel');
 import '@babel/polyfill';
-// import { displayMap } from './mapbox';
+import { displayMap } from './mapbox';
 import { login, logout } from './login';
 import { signup } from './signup';
 import { updateSettings } from './updateSettings';
 import { bookTour } from './stripe';
 //DOM elements
-// const mapBox = document.getElementById('map');
+const mapBox = document.getElementById('map');
 const loginForm = document.querySelector('.form--login');
 const signupForm = document.querySelector('.form--signup');
 
@@ -19,13 +19,16 @@ const bookBtn = document.getElementById('book-tour');
 // console.log(bookBtn);
 
 //DELEGATION
-// if (mapBox) {
-//   const locations = JSON.parse(
-//     document.getElementById('map').dataset.locations
-//   );
+if (mapBox) {
+  console.log(mapBox.dataset);
+  console.log(mapBox);
+  const locations = JSON.parse(
+    document.getElementById('map').dataset.locations
+  );
 
-//   displayMap(locations);
-// }
+  displayMap(locations);
+}
+
 if (loginForm) {
   document.querySelector('.form').addEventListener('submit', (e) => {
     e.preventDefault();

@@ -5,6 +5,7 @@ block content
     .card-container
     
       each tour in tours
+        
         .card
           .card__header
             .card__picture
@@ -19,7 +20,7 @@ block content
             .card__data
               svg.card__icon
                 use(xlink:href='/img/icons.svg#icon-map-pin')
-              //- span= tour.startLocation.description
+              span= tour.startLocation.description
               
             .card__data
               svg.card__icon
@@ -28,7 +29,7 @@ block content
             .card__data
               svg.card__icon
                 use(xlink:href='/img/icons.svg#icon-flag')
-              //- span= `${tour.locations.length} stops`
+              span= `${tour.locations.length} stops`
             .card__data
               svg.card__icon
                 use(xlink:href='/img/icons.svg#icon-user')

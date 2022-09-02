@@ -80,30 +80,30 @@ const tourSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
-    // startLocation: {
-    //   // GeoJSON
-    //   type: {
-    //     type: String,
-    //     default: "Point",
-    //     enum: ["Point"],
-    //   },
-    //   coordinates: [Number],
-    //   address: String,
-    //   description: String,
-    // },
-    // locations: [
-    //   {
-    //     type: {
-    //       type: String,
-    //       default: "Point",
-    //       enum: ["Point"],
-    //     },
-    //     coordinates: [Number],
-    //     address: String,
-    //     description: String,
-    //     day: Number,
-    //   },
-    // ],
+    startLocation: {
+      // GeoJSON
+      type: {
+        type: String,
+        default: "Point",
+        enum: ["Point"],
+      },
+      coordinates: [Number],
+      address: String,
+      description: String,
+    },
+    locations: [
+      {
+        type: {
+          type: String,
+          default: "Point",
+          enum: ["Point"],
+        },
+        coordinates: [Number],
+        address: String,
+        description: String,
+        day: Number,
+      },
+    ],
     guides: [
       {
         type: mongoose.Schema.ObjectId,
@@ -138,7 +138,7 @@ tourSchema.pre("save", function (next) {
 });
 
 tourSchema.post("save", function (doc, next) {
-  console.log(doc);
+  // console.log(doc);
   next();
 });
 

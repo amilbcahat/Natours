@@ -8,12 +8,15 @@ const AppError = require("../utils/appError");
 exports.getOverview = catchAsync(async (req, res, next) => {
   //1) Get our data from collection
   const tours = await Tour.find();
+  startLocations = tours.startLocations;
+
   // console.log(tours);
   //2) Build template data
   // 3) Render that template using tour data from 1)
   res.status(200).render("overview", {
     title: "All Tours",
     tours,
+    startLocations,
   });
 });
 

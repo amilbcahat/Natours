@@ -1,8 +1,5 @@
 /*eslint-disable*/
 
-const locations = JSON.parse(document.getElementById('map').dataset.locations);
-console.log(locations);
-
 export const displayMap = (locations) => {
   mapboxgl.accessToken =
     'pk.eyJ1IjoiYW1pbGJjYWhhdCIsImEiOiJjbDV2cjkyOXIwY2h3M2JtaTMxemtjM3FmIn0.JWn8DiZcQKCoUokTKNt7kw';
@@ -10,9 +7,9 @@ export const displayMap = (locations) => {
     container: 'map',
     style: 'mapbox://styles/amilbcahat/cl5vrcqi4000314og9yv7s6om',
     scrollZoom: false,
-    //   center: [-118.113491, 34.111745],
-    //   zoom: 10,
-    //   interactive: false,
+    // center: [78.08107, 27.909486],
+    // zoom: 10,
+    // interactive: false,
   });
 
   const bounds = new mapboxgl.LngLatBounds();
