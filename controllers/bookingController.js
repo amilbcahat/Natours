@@ -13,7 +13,9 @@ const factory = require("./handlerFactory");
 exports.getCheckoutSession = catchAsync(async (req, res, next) => {
   // 1) Get the currently booked tour
   const tour = await Tour.findById(req.params.tourID);
-
+  console.log(
+    `${req.protocol}://${req.get("host")}/img/tours/${tour.imageCover}`
+  );
   //2) Create Checkout Session
   const session = await stripe.checkout.sessions.create({
     mode: "payment",
