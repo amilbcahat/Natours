@@ -4,6 +4,9 @@ const authController = require("./../controllers/authController.js");
 const bookingController = require("./../controllers/bookingController.js");
 
 const router = express.Router();
+
+router.use(viewController.alerts);
+
 router.get(
   "/",
 

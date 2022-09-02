@@ -7,6 +7,8 @@ import { login, logout } from './login';
 import { signup } from './signup';
 import { updateSettings } from './updateSettings';
 import { bookTour } from './stripe';
+import { showAlert } from './alerts';
+
 //DOM elements
 const mapBox = document.getElementById('map');
 const loginForm = document.querySelector('.form--login');
@@ -108,4 +110,10 @@ if (bookBtn) {
 if (logOutBtn) {
   // console.log('button was recognised 1');
   logOutBtn.addEventListener('click', logout);
+}
+
+const alertMessage = document.querySelector('body').dataset.alert;
+
+if (alertMessage) {
+  showAlert('success', alertMessage, 20);
 }
