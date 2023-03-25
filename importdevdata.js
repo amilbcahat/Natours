@@ -6,6 +6,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const { createVerify } = require("crypto");
 const cookieSession = require("cookie-session");
+const { getAllTours } = require("./controllers/tourController.js");
 dotenv.config({ path: "./config.env" });
 const DB = process.env.DATABASE;
 
@@ -25,15 +26,15 @@ const tours = JSON.parse(
   fs.readFileSync(`${__dirname}/starter/dev-data/data/tours.json`, "utf-8")
 );
 const reviews = JSON.parse(
-  fs.readFileSync(`${__dirname}/starter/dev-data/data/reviews1.json`, "utf-8")
+  fs.readFileSync(`${__dirname}/starter/dev-data/data/reviews.json`, "utf-8")
 );
 const users = JSON.parse(
-  fs.readFileSync(`${__dirname}/starter/dev-data/data/users1.json`, "utf-8")
+  fs.readFileSync(`${__dirname}/starter/dev-data/data/users.json`, "utf-8")
 );
 const importData = async () => {
   try {
     // console.log(review);
-    await Review.create(reviews, { validateBeforeSave: false });
+    await User.create(users, { validateBeforeSave: false });
 
     console.log("Data successfully loaded");
   } catch (err) {
