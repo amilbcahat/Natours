@@ -1,5 +1,5 @@
 node_modules/
-*.env 
+# *.env 
 after-section-06/
 after-section-07/
 after-section-08/
