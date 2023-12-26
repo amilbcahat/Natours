@@ -21,6 +21,9 @@ mongoose
   .then((con) => {
     // console.log(con.connections);
     console.log("Database connected");
+  })
+  .catch((err) => {
+    console.log(err);
   });
 
 const app = require("./app");

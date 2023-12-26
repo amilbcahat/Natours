@@ -1,0 +1,1487 @@
+{
+  "2625a019b068474d8fdabb3e6868f582.es-kibana.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["13.35.191.81", "13.35.191.38", "13.35.191.105", "13.35.191.76"],
+    "code": 403,
+    "server": "CloudFront"
+  },
+  "api.waypoint.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "18.164.188.47",
+      "18.164.188.92",
+      "18.164.188.127",
+      "18.164.188.123"
+    ],
+    "code": 404,
+    "server": "awselb/2.0"
+  },
+  "api.internal.waypoint.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["52.77.192.252", "13.228.101.178", "18.139.232.112"],
+    "code": 404,
+    "server": "awselb/2.0"
+  },
+  "api-2.ap-southeast-1.internal.waypoint.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["52.77.192.252", "18.139.232.112", "13.228.101.178"],
+    "code": 404,
+    "server": "awselb/2.0"
+  },
+  "api.ap-southeast-1.internal.waypoint.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["18.139.232.112", "13.228.101.178", "52.77.192.252"],
+    "code": 404,
+    "server": "awselb/2.0"
+  },
+  "api.grabview.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["40.119.224.99"],
+    "code": 400,
+    "server": "nginx/1.17.10"
+  },
+  "api-2.eu-west-1.internal.waypoint.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["34.249.87.119", "52.214.93.136", "54.76.191.201"],
+    "code": 404,
+    "server": "awselb/2.0"
+  },
+  "api.us-east-2.internal.waypoint.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["3.130.66.88", "3.137.123.95"],
+    "code": 404,
+    "server": "awselb/2.0"
+  },
+  "api.eu-west-1.internal.waypoint.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["52.214.93.136", "54.76.191.201", "34.249.87.119"],
+    "code": 404,
+    "server": "awselb/2.0"
+  },
+  "api-2.us-east-2.internal.waypoint.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["3.130.66.88", "3.137.123.95", "3.139.206.97"],
+    "code": 404,
+    "server": "awselb/2.0"
+  },
+  "baru.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["54.255.126.58", "13.215.56.178", "18.136.61.230"],
+    "code": 403,
+    "server": "awselb/2.0"
+  },
+  "aws.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["54.169.43.168", "54.254.152.152"],
+    "code": 200,
+    "server": "AmazonS3"
+  },
+  "camera-management.grabview.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["40.119.224.99"],
+    "code": 200,
+    "server": "nginx/1.17.10"
+  },
+  "alfred.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.90.68", "10.0.87.77"],
+    "code": "",
+    "server": ""
+  },
+  "alation-ha.data-engineering.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.55.1.48", "10.55.2.90"],
+    "code": "",
+    "server": ""
+  },
+  "alice.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.91.159", "10.0.86.49"],
+    "code": "",
+    "server": ""
+  },
+  "api-gateway-platform.pages.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.1.170", "10.60.5.254"],
+    "code": "",
+    "server": ""
+  },
+  "api.aws.sg.vault-pki.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.222.168", "10.0.249.18"],
+    "code": "",
+    "server": ""
+  },
+  "argus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.86.200", "10.0.89.9"],
+    "code": "",
+    "server": ""
+  },
+  "asgard.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.91.232"],
+    "code": "",
+    "server": ""
+  },
+  "cashew.karta.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["20.43.132.130"],
+    "code": 404,
+    "server": "nginx/1.22.1"
+  },
+  "blox02.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.2.88.3"],
+    "code": "",
+    "server": ""
+  },
+  "blox01.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.2.88.2"],
+    "code": "",
+    "server": ""
+  },
+  "api.conveyor.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.5.220", "10.60.1.251", "10.60.3.186"],
+    "code": "",
+    "server": ""
+  },
+  "api.aws.sg.vault-v2.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.248.170", "10.0.222.28", "10.0.84.188"],
+    "code": "",
+    "server": ""
+  },
+  "aws-police-stg.internal-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.17.60", "10.60.21.13"],
+    "code": "",
+    "server": ""
+  },
+  "aws-police-prd.internal-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.3.69", "10.60.5.212"],
+    "code": "",
+    "server": ""
+  },
+  "api.cycle.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.78.9.171", "10.78.7.146", "10.78.4.55"],
+    "code": "",
+    "server": ""
+  },
+  "bambi.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.88.96", "10.0.86.36"],
+    "code": "",
+    "server": ""
+  },
+  "arion-compute-001.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.122.186", "10.94.123.86", "10.94.122.87"],
+    "code": "",
+    "server": ""
+  },
+  "argocd.cauldron.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.92.49.157", "10.92.69.89", "10.92.62.95"],
+    "code": "",
+    "server": ""
+  },
+  "arion-compute-002.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.122.87", "10.94.122.186", "10.94.123.86"],
+    "code": "",
+    "server": ""
+  },
+  "arion-compute-003.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.122.186", "10.94.123.86", "10.94.122.87"],
+    "code": "",
+    "server": ""
+  },
+  "abacus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.10.228", "10.0.48.137", "10.0.8.86"],
+    "code": "",
+    "server": ""
+  },
+  "ads.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.47.38", "10.0.7.20", "10.0.9.125"],
+    "code": "",
+    "server": ""
+  },
+  "cark-prd-1.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.29.135.4"],
+    "code": "",
+    "server": ""
+  },
+  "cark-prd-2.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.29.135.5"],
+    "code": "",
+    "server": ""
+  },
+  "cark-prd-lb.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.29.135.6"],
+    "code": "",
+    "server": ""
+  },
+  "cark-prd-3.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.29.135.7"],
+    "code": "",
+    "server": ""
+  },
+  "cark-stg-1.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.29.133.8"],
+    "code": "",
+    "server": ""
+  },
+  "cark-stg-2.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.29.133.9"],
+    "code": "",
+    "server": ""
+  },
+  "cark-stg-3.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.29.133.7"],
+    "code": "",
+    "server": ""
+  },
+  "config-portal.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "54.192.171.97",
+      "54.192.171.16",
+      "54.192.171.27",
+      "54.192.171.95"
+    ],
+    "code": 403,
+    "server": "AmazonS3"
+  },
+  "apm.ece-v2-10.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.0.77.165",
+      "10.0.65.168",
+      "10.0.62.24",
+      "10.0.73.72",
+      "10.0.56.90",
+      "10.0.70.206"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "apt.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.0.10.12",
+      "10.0.10.36",
+      "10.0.8.144",
+      "10.0.48.224",
+      "10.0.8.19",
+      "10.0.48.245"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "bs.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.48.71", "10.0.10.150", "10.0.8.225"],
+    "code": "",
+    "server": ""
+  },
+  "cark-stg-lb.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.29.133.11"],
+    "code": "",
+    "server": ""
+  },
+  "cron.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.1.22"],
+    "code": "",
+    "server": ""
+  },
+  "chimera-compute-001.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.123.86", "10.94.122.87", "10.94.122.186"],
+    "code": "",
+    "server": ""
+  },
+  "conveyor.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.1.33", "10.60.5.89"],
+    "code": "",
+    "server": ""
+  },
+  "conveyor-stg.internal-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.21.174", "10.60.19.250"],
+    "code": "",
+    "server": ""
+  },
+  "devops.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.254.3.58"],
+    "code": "",
+    "server": ""
+  },
+  "enterprise-api.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["13.213.126.99", "13.251.104.132"],
+    "code": 200,
+    "server": "nginx"
+  },
+  "doc.openstreetcam.geo.azure.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["40.119.224.99"],
+    "code": 200,
+    "server": "nginx/1.17.10"
+  },
+  "ece-v2.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.48.213"],
+    "code": "",
+    "server": ""
+  },
+  "fish.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["54.179.139.59", "13.228.8.249"],
+    "code": 404,
+    "server": ""
+  },
+  "delta.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.7.203", "10.0.9.42", "10.0.47.24"],
+    "code": "",
+    "server": ""
+  },
+  "dex.svc.sandbox-anaconda.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.123.86", "10.94.122.186", "10.94.122.87"],
+    "code": "",
+    "server": ""
+  },
+  "draco.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.87.84", "10.0.89.139"],
+    "code": "",
+    "server": ""
+  },
+  "dap.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.86.9", "10.0.91.136", "10.0.88.180"],
+    "code": "",
+    "server": ""
+  },
+  "datagateway.data-engineering.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.55.118.91", "10.55.121.115", "10.55.123.105"],
+    "code": "",
+    "server": ""
+  },
+  "documents.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.47.92", "10.0.9.75"],
+    "code": "",
+    "server": ""
+  },
+  "dbops-es-files.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.61.150", "10.0.76.133"],
+    "code": "",
+    "server": ""
+  },
+  "doorman.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.190.42.88", "10.190.39.67", "10.190.40.112"],
+    "code": "",
+    "server": ""
+  },
+  "geo-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "18.164.237.121",
+      "18.164.237.122",
+      "18.164.237.52",
+      "18.164.237.105"
+    ],
+    "code": 403,
+    "server": "CloudFront"
+  },
+  "eureka.cycle.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.78.5.16", "10.78.7.22"],
+    "code": "",
+    "server": ""
+  },
+  "go.internal-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["13.228.15.210", "13.251.241.37"],
+    "code": 200,
+    "server": "cloudflare"
+  },
+  "forge.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.89.209", "10.0.86.80"],
+    "code": "",
+    "server": ""
+  },
+  "chronos.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.0.8.136",
+      "10.0.48.219",
+      "10.0.10.215",
+      "10.0.48.30",
+      "10.0.10.120",
+      "10.0.8.153",
+      "10.0.10.75",
+      "10.0.48.102"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "id.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["139.255.54.83"],
+    "code": "",
+    "server": ""
+  },
+  "grafana-stg.conduit.cauldron.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.92.126.144", "10.92.124.120"],
+    "code": "",
+    "server": ""
+  },
+  "grafana.stg.cauldron.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.92.124.120", "10.92.126.144"],
+    "code": "",
+    "server": ""
+  },
+  "ims.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.86.113"],
+    "code": "",
+    "server": ""
+  },
+  "jarvis.geo.azure.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["40.119.224.99"],
+    "code": 200,
+    "server": "nginx/1.17.10"
+  },
+  "id.kartamap.geo.azure.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["20.198.145.43"],
+    "code": "",
+    "server": ""
+  },
+  "juno.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["3.0.6.128", "18.136.36.76"],
+    "code": 403,
+    "server": "awselb/2.0"
+  },
+  "kibana.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["52.77.166.19", "52.76.6.27", "52.76.221.161"],
+    "code": 403,
+    "server": "awselb/2.0"
+  },
+  "goblin.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.8.113", "10.0.10.66", "10.0.48.232"],
+    "code": "",
+    "server": ""
+  },
+  "goproxy.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.234.241.202", "10.234.239.152", "10.234.236.224"],
+    "code": "",
+    "server": ""
+  },
+  "grafana.conduit.cauldron.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.92.62.95", "10.92.69.89", "10.92.49.157"],
+    "code": "",
+    "server": ""
+  },
+  "ece-v2-10.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.0.70.206",
+      "10.0.56.90",
+      "10.0.65.168",
+      "10.0.77.165",
+      "10.0.73.72",
+      "10.0.62.24"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "hodor-k8s-api.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.109.178.56", "10.109.176.188", "10.109.177.72"],
+    "code": "",
+    "server": ""
+  },
+  "jenkins.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.254.10.145"],
+    "code": "",
+    "server": ""
+  },
+  "grafana.cauldron.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.92.49.157", "10.92.62.95", "10.92.69.89"],
+    "code": "",
+    "server": ""
+  },
+  "ent.ece-v2-10.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.0.62.24",
+      "10.0.73.72",
+      "10.0.56.90",
+      "10.0.70.206",
+      "10.0.65.168",
+      "10.0.77.165"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "es.ece-v2-10.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.0.62.24",
+      "10.0.73.72",
+      "10.0.65.168",
+      "10.0.56.90",
+      "10.0.70.206",
+      "10.0.77.165"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "ldap.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.254.10.247"],
+    "code": "",
+    "server": ""
+  },
+  "ingress-001.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.122.87", "10.94.122.186", "10.94.123.86"],
+    "code": "",
+    "server": ""
+  },
+  "fleet.ece-v2-10.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.0.56.90",
+      "10.0.77.165",
+      "10.0.70.206",
+      "10.0.62.24",
+      "10.0.73.72",
+      "10.0.65.168"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "jenkins.cycle.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.78.244.233", "10.78.247.229"],
+    "code": "",
+    "server": ""
+  },
+  "jetbrains-license.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.5.79", "10.60.1.9"],
+    "code": "",
+    "server": ""
+  },
+  "jetbrains-license.internal-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.19.151", "10.60.17.234"],
+    "code": "",
+    "server": ""
+  },
+  "map.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "18.164.237.122",
+      "18.164.237.121",
+      "18.164.237.52",
+      "18.164.237.105"
+    ],
+    "code": 403,
+    "server": "CloudFront"
+  },
+  "maps.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "18.164.237.122",
+      "18.164.237.105",
+      "18.164.237.52",
+      "18.164.237.121"
+    ],
+    "code": 403,
+    "server": "CloudFront"
+  },
+  "hotspot.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.87.170", "10.0.88.114", "10.0.91.212"],
+    "code": "",
+    "server": ""
+  },
+  "iris.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.10.243", "10.0.48.69", "10.0.8.226"],
+    "code": "",
+    "server": ""
+  },
+  "log.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.1.84"],
+    "code": "",
+    "server": ""
+  },
+  "mex-aliments-be.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["3.1.3.213", "3.0.10.236", "18.136.143.5"],
+    "code": 200,
+    "server": ""
+  },
+  "mex-aliments-fuel-be.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["54.251.14.79", "54.151.181.76"],
+    "code": 200,
+    "server": ""
+  },
+  "mex-aliments-fuel-cms.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["52.76.176.164", "52.220.47.56"],
+    "code": 200,
+    "server": "nginx/1.23.4"
+  },
+  "mex-aliments-cms.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["54.151.230.206", "13.229.41.69"],
+    "code": 200,
+    "server": "nginx"
+  },
+  "jarvis.cycle.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.78.5.199", "10.78.9.111", "10.78.6.171"],
+    "code": "",
+    "server": ""
+  },
+  "mex-aliments-fuel-metabase.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["54.179.209.65", "13.214.94.170"],
+    "code": 403,
+    "server": "awselb/2.0"
+  },
+  "mex-aliments-buyer-web.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["3.0.65.106", "54.169.169.153"],
+    "code": 200,
+    "server": "nginx"
+  },
+  "mex-aliments-metabase.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["52.76.253.88", "52.221.166.39"],
+    "code": 403,
+    "server": "awselb/2.0"
+  },
+  "logstash-stg.internal-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.17.212", "10.60.19.144"],
+    "code": "",
+    "server": ""
+  },
+  "mgmt.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.0.236"],
+    "code": "",
+    "server": ""
+  },
+  "magneto.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.48.188", "10.0.10.13", "10.0.8.50"],
+    "code": "",
+    "server": ""
+  },
+  "my.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["121.120.108.115"],
+    "code": "",
+    "server": ""
+  },
+  "logstash-prd.internal-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.5.4", "10.60.3.48", "10.60.1.166"],
+    "code": "",
+    "server": ""
+  },
+  "medusa.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.89.242", "10.0.91.130"],
+    "code": "",
+    "server": ""
+  },
+  "metabase.cycle.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.78.244.233", "10.78.247.229"],
+    "code": "",
+    "server": ""
+  },
+  "nrainer.karta.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["20.43.132.130"],
+    "code": 404,
+    "server": "nginx/1.22.1"
+  },
+  "nessus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.254.3.96"],
+    "code": "",
+    "server": ""
+  },
+  "gitlab.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.60.3.205",
+      "10.60.1.119",
+      "10.60.3.12",
+      "10.60.1.189",
+      "10.60.1.252",
+      "10.60.3.195",
+      "10.60.1.237",
+      "10.60.3.95"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "marketplace.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.10.17", "10.0.8.190", "10.0.48.40"],
+    "code": "",
+    "server": ""
+  },
+  "gitlab-stg.internal-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.60.19.172",
+      "10.60.17.104",
+      "10.60.17.208",
+      "10.60.19.251",
+      "10.60.19.94",
+      "10.60.17.132",
+      "10.60.19.89",
+      "10.60.17.12"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "oncall.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "54.192.171.88",
+      "54.192.171.78",
+      "54.192.171.52",
+      "54.192.171.38"
+    ],
+    "code": 403,
+    "server": "CloudFront"
+  },
+  "partner-profile-pic.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["18.66.63.115", "18.66.63.34", "18.66.63.97", "18.66.63.10"],
+    "code": 403,
+    "server": "AmazonS3"
+  },
+  "pc-70.karta.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["20.43.132.130"],
+    "code": 404,
+    "server": "nginx/1.22.1"
+  },
+  "kb.ece-v2-10.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.0.70.206",
+      "10.0.65.168",
+      "10.0.62.24",
+      "10.0.73.72",
+      "10.0.77.165",
+      "10.0.56.90"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "nirvana.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.10.105", "10.0.48.169", "10.0.8.251"],
+    "code": "",
+    "server": ""
+  },
+  "morpheus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.8.224", "10.0.48.207", "10.0.10.90"],
+    "code": "",
+    "server": ""
+  },
+  "ph.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["180.232.69.202"],
+    "code": "",
+    "server": ""
+  },
+  "owl.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.87.37", "10.0.91.171"],
+    "code": "",
+    "server": ""
+  },
+  "pkcs7.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["169.254.169.254"],
+    "code": "",
+    "server": ""
+  },
+  "offers.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.8.152", "10.0.48.109", "10.0.10.170"],
+    "code": "",
+    "server": ""
+  },
+  "ops-001.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.122.87", "10.94.122.186", "10.94.123.86"],
+    "code": "",
+    "server": ""
+  },
+  "oxygen-license.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.234.249.54", "10.234.252.158", "10.234.250.220"],
+    "code": "",
+    "server": ""
+  },
+  "lightstep-collector.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.0.233.191",
+      "10.0.225.219",
+      "10.0.228.184",
+      "10.0.231.106",
+      "10.0.224.225",
+      "10.0.233.54",
+      "10.0.224.141",
+      "10.0.230.50"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "pikachu.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.90.18", "10.0.86.35"],
+    "code": "",
+    "server": ""
+  },
+  "pandora.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.88.140", "10.0.91.1", "10.0.87.156"],
+    "code": "",
+    "server": ""
+  },
+  "qms.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["13.76.156.188"],
+    "code": "",
+    "server": ""
+  },
+  "ragnarok.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.91.39"],
+    "code": "",
+    "server": ""
+  },
+  "pharos.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.91.32", "10.0.86.110", "10.0.88.183"],
+    "code": "",
+    "server": ""
+  },
+  "photon.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.86.211", "10.0.89.92", "10.0.90.100"],
+    "code": "",
+    "server": ""
+  },
+  "prd-ananta-cadence.segp.data-platform.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.190.96.65", "10.190.97.241"],
+    "code": "",
+    "server": ""
+  },
+  "prd-pythia.segp.data-platform.myteksi.net": {
+    "domain": "internal-pi-prd-pythia-prd-pythia-elb-1665577551.ap-southeast-1.elb.amazonaws.com",
+    "alias": ["prd-pythia.segp.data-platform.myteksi.net"],
+    "ipaddr": ["10.190.98.27", "10.190.96.104"],
+    "code": "",
+    "server": ""
+  },
+  "prd-cadence-fargate.segp.data-platform.myteksi.net": {
+    "domain": "internal-pi-prd-cadence-fargate-lb-1481501144.ap-southeast-1.elb.amazonaws.com",
+    "alias": ["prd-cadence-fargate.segp.data-platform.myteksi.net"],
+    "ipaddr": ["10.190.98.35", "10.190.97.59"],
+    "code": "",
+    "server": ""
+  },
+  "scim-bridge2.foundation.azure.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["20.197.123.106"],
+    "code": 200,
+    "server": ""
+  },
+  "seoimp.karta.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["20.43.132.130"],
+    "code": 404,
+    "server": "nginx/1.22.1"
+  },
+  "promo.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.88.231", "10.0.90.194", "10.0.86.236"],
+    "code": "",
+    "server": ""
+  },
+  "slam.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["13.228.41.103", "52.77.190.225"],
+    "code": 403,
+    "server": "awselb/2.0"
+  },
+  "scim-bridge.foundation.azure.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["20.197.123.106"],
+    "code": "",
+    "server": ""
+  },
+  "quest.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.8.98", "10.0.10.202", "10.0.48.76"],
+    "code": "",
+    "server": ""
+  },
+  "sg.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["118.189.98.114"],
+    "code": "",
+    "server": ""
+  },
+  "rewards.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.8.129", "10.0.48.118", "10.0.10.79"],
+    "code": "",
+    "server": ""
+  },
+  "scylla-monitoring.segp.data-platform.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.190.96.69", "10.190.97.155"],
+    "code": "",
+    "server": ""
+  },
+  "stratus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "54.192.171.22",
+      "54.192.171.11",
+      "54.192.171.127",
+      "54.192.171.53"
+    ],
+    "code": 403,
+    "server": "CloudFront"
+  },
+  "search.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.88.236", "10.0.90.143", "10.0.87.43"],
+    "code": "",
+    "server": ""
+  },
+  "tawish.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "54.192.171.53",
+      "54.192.171.22",
+      "54.192.171.127",
+      "54.192.171.11"
+    ],
+    "code": 403,
+    "server": "CloudFront"
+  },
+  "techforum.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["127.0.0.1"],
+    "code": "",
+    "server": ""
+  },
+  "sonar.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.91.69", "10.0.87.22"],
+    "code": "",
+    "server": ""
+  },
+  "sharp.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.88.53", "10.0.90.148", "10.0.86.143"],
+    "code": "",
+    "server": ""
+  },
+  "sphinx-prd.internal-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.1.225", "10.60.3.222"],
+    "code": "",
+    "server": ""
+  },
+  "sphinx-stg.internal-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.19.92", "10.60.17.45"],
+    "code": "",
+    "server": ""
+  },
+  "tis-content.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["99.86.47.65", "99.86.47.100", "99.86.47.70", "99.86.47.94"],
+    "code": 403,
+    "server": "AmazonS3"
+  },
+  "skywalker.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.90.165", "10.0.88.57", "10.0.86.214"],
+    "code": "",
+    "server": ""
+  },
+  "stg-ananta-cadence.segp.data-platform.myteksi.net": {
+    "domain": "internal-pi-stg-ananta-cadence-lb-443138426.ap-southeast-1.elb.amazonaws.com",
+    "alias": ["stg-ananta-cadence.segp.data-platform.myteksi.net"],
+    "ipaddr": ["10.190.98.221", "10.190.96.95"],
+    "code": "",
+    "server": ""
+  },
+  "stash.crm.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["52.220.105.80", "52.220.181.189"],
+    "code": "",
+    "server": ""
+  },
+  "teamcity.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.10.0.253"],
+    "code": "",
+    "server": ""
+  },
+  "ucm-gk.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "108.158.221.68",
+      "108.158.221.59",
+      "108.158.221.28",
+      "108.158.221.93"
+    ],
+    "code": 403,
+    "server": "CloudFront"
+  },
+  "stg-cadence-fargate.segp.data-platform.myteksi.net": {
+    "domain": "internal-pi-stg-cadence-fargate-lb-785070408.ap-southeast-1.elb.amazonaws.com",
+    "alias": ["stg-cadence-fargate.segp.data-platform.myteksi.net"],
+    "ipaddr": ["10.190.96.250", "10.190.97.93"],
+    "code": "",
+    "server": ""
+  },
+  "stg-pythia.segp.data-platform.myteksi.net": {
+    "domain": "internal-pi-stg-pythia-stg-pythia-elb-1842146921.ap-southeast-1.elb.amazonaws.com",
+    "alias": ["stg-pythia.segp.data-platform.myteksi.net"],
+    "ipaddr": ["10.190.97.179", "10.190.98.207"],
+    "code": "",
+    "server": ""
+  },
+  "timeline.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.10.217"],
+    "code": "",
+    "server": ""
+  },
+  "terraform.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.254.8.225", "10.254.10.50"],
+    "code": "",
+    "server": ""
+  },
+  "terraform-stg.internal-tools.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.60.19.142", "10.60.21.212"],
+    "code": "",
+    "server": ""
+  },
+  "subscription.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.8.253", "10.0.48.37", "10.0.10.35"],
+    "code": "",
+    "server": ""
+  },
+  "svcb.chimera-compute-001.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.59.42", "10.94.88.224", "10.94.64.103"],
+    "code": "",
+    "server": ""
+  },
+  "svc.arion-compute-003.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.72.7", "10.94.47.44", "10.94.50.43"],
+    "code": "",
+    "server": ""
+  },
+  "svc.arion-compute-002.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.75.226", "10.94.33.182", "10.94.54.66"],
+    "code": "",
+    "server": ""
+  },
+  "svc.chimera-compute-001.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.88.224", "10.94.59.42", "10.94.64.103"],
+    "code": "",
+    "server": ""
+  },
+  "svcb.arion-compute-003.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.72.7", "10.94.47.44", "10.94.50.43"],
+    "code": "",
+    "server": ""
+  },
+  "svcb.arion-compute-002.olympus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.94.54.66", "10.94.33.182", "10.94.75.226"],
+    "code": "",
+    "server": ""
+  },
+  "tableau.data-engineering.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.55.8.208", "10.55.1.231", "10.55.2.141"],
+    "code": "",
+    "server": ""
+  },
+  "tableau-dev.data-engineering.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.55.8.19", "10.55.1.49", "10.55.2.162"],
+    "code": "",
+    "server": ""
+  },
+  "tableau-sandbox.data-engineering.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.55.1.232", "10.55.8.27", "10.55.2.233"],
+    "code": "",
+    "server": ""
+  },
+  "viper.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.86.174"],
+    "code": "",
+    "server": ""
+  },
+  "uno.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.86.7", "10.0.90.121", "10.0.88.23"],
+    "code": "",
+    "server": ""
+  },
+  "squid.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.0.8.144",
+      "10.0.10.36",
+      "10.0.48.224",
+      "10.0.8.19",
+      "10.0.10.12",
+      "10.0.48.245"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "web.stg.cauldron.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.92.126.144", "10.92.124.120"],
+    "code": "",
+    "server": ""
+  },
+  "vault.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.48.133", "10.0.8.149", "10.0.10.240"],
+    "code": "",
+    "server": ""
+  },
+  "venom.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.89.123", "10.0.91.105", "10.0.87.89"],
+    "code": "",
+    "server": ""
+  },
+  "venus.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.87.174", "10.0.89.115", "10.0.90.34"],
+    "code": "",
+    "server": ""
+  },
+  "zabbix.gts.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.29.1.71"],
+    "code": "",
+    "server": ""
+  },
+  "web.cauldron.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.92.69.89", "10.92.49.157", "10.92.62.95"],
+    "code": "",
+    "server": ""
+  },
+  "scylla.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.0.70.12",
+      "10.0.71.247",
+      "10.0.67.17",
+      "10.0.71.122",
+      "10.0.68.168",
+      "10.0.66.14",
+      "10.0.71.1",
+      "10.0.70.55",
+      "10.0.67.118"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "yoda.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": ["10.0.91.237", "10.0.86.24", "10.0.89.210"],
+    "code": "",
+    "server": ""
+  },
+  "us.pax-bazel-cache.myteksi.net": {
+    "domain": "",
+    "alias": [],
+    "ipaddr": [
+      "10.191.48.179",
+      "10.191.48.168",
+      "10.191.48.27",
+      "10.191.48.42",
+      "10.191.48.119",
+      "10.191.48.142"
+    ],
+    "code": "",
+    "server": ""
+  },
+  "_meta": {
+    "name": "knockpy",
+    "version": "6.1.0",
+    "time_start": 1680610015.5120957,
+    "time_end": 1680610221.3336027,
+    "domain": "myteksi.net",
+    "wordlist": 11014
+  }
+}
